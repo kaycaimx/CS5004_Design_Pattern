@@ -4,7 +4,7 @@ package milkteafactory;
  * This abstract class represents an abstract Milk Tea Shop which can take order and make a MilkTea
  object based on tea base type and cup size. The MilkTeaShop class depends on the MilkTea abstract
  class and delegates instantiation of concrete classes to its subclasses. Subclasses of MilkTeaShop
- represents different genres of milk teas: such as boba tea, milk cap tea, fruit tea, etc.
+ represents different genres of milk teas: such as boba tea, cream cap tea, fruit tea, etc.
  */
 public abstract class MilkTeaShop {
 

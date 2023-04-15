@@ -10,7 +10,7 @@ public class Main {
    * @param args program code
    */
   public static void main(String[] args) {
-    MilkTeaShop milkCapShop = new MilkCapTeaShop();
+    MilkTeaShop creamCapShop = new CreamCapTeaShop();
     MilkTeaShop bobaShop = new BobaTeaShop();
     MilkTeaShop fruitShop = new FruitTeaShop();
 
@@ -18,7 +18,7 @@ public class Main {
 
     MilkTea simonaOrder = fruitShop.orderTea("earl grey", Size.S);
 
-    MilkTea kayOrder = milkCapShop.orderTea("taro", Size.L);
+    MilkTea kayOrder = creamCapShop.orderTea("taro", Size.L);
 
     System.out.println("Iris ordered: " + irisOrder.toString());
     System.out.println("Simona ordered: " + simonaOrder.toString());

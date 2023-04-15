@@ -9,7 +9,7 @@ public class BobaEarlGrey extends MilkTea {
    * Constructor for a Boba Earl Grey Tea.
    */
   public BobaEarlGrey() {
-    this.name = "Boba Earl Grey Tea";
+    this.name = "Boba Bubble Earl Grey Tea";
     this.price = 5.75;
     this.size = Size.S;
   }

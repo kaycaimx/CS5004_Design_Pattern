@@ -1,18 +1,18 @@
 package milkteafactory;
 
 /**
- * This class represents a concrete MilkTeaShop class that only makes milk cap milk tea.
+ * This class represents a concrete MilkTeaShop class that only makes cheese cap milk tea.
  */
-public class MilkCapTeaShop extends MilkTeaShop {
+public class CreamCapTeaShop extends MilkTeaShop {
 
   @Override
   public MilkTea makeTea(String type) {
     if ("Oolong".equalsIgnoreCase(type)) {
-      return new MilkCapOolong();
+      return new CreamCapOolong();
     } else if ("Earl Grey".equalsIgnoreCase(type)) {
-      return new MilkCapEarlGrey();
+      return new CreamCapEarlGrey();
     } else if ("Taro".equalsIgnoreCase(type)) {
-      return new MilkCapTaro();
+      return new CreamCapTaro();
     } else {
       return null;
     }
