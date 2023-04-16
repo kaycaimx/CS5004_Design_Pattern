@@ -2,17 +2,14 @@
 Design pattern presentation for CS5004 Spring 2023 - Factory 1
 
 ### How Factory Pattern Works?
+The factory method is a creational design pattern that provides an interface or abstract class for creating an object. And it allows its sub-classes to decide which class to instantiate.
 
-    The factory method is a creational design pattern that provides an interface or abstract class for creating an object. And it allows its sub-classes to decide which class to instantiate. 
- 
-    In this pattern, a creator class provides an abstract method that returns an object of a specific type. The concrete subclasses of the creator class implement this method to create objects of different types. The client code interacts with the creator class, rather than directly interacts with the concrete subclasses. This pattern allows for greater flexibility in object creation and promotes loose coupling.
+In this pattern, a creator class provides an abstract method that returns an object of a specific type. The concrete subclasses of the creator class implement this method to create objects of different types. The client code interacts with the creator class, rather than directly interacts with the concrete subclasses. This pattern allows for greater flexibility in object creation and promotes loose coupling.
 
 ### When To Use Factory Pattern?
+Assume we are opening a bank which offers our customers different types of credit cards. We provide three types of credit cards such as Silver, Gold, and Platinum cards. Each of them has a different credit limit. For example, the credit limit of a Silver card is 10,000 CAD, the credit limit of a Gold card is 25,000 CAD, and the credit limit of a Platinum card is 50,000 CAD. The type of credit card a customer will receive depends on his/her annual income.
 
-    Assume we are opening a bank which offers our customers different types of credit cards. We provide three types of credit cards such as Silver, Gold, and Platinum cards. Each of them has a different credit limit. For example, the credit limit of a Silver card is 10,000 CAD, the credit limit of a Gold card is 25,000 CAD, and the credit limit of a Platinum card is 50,000 CAD. The type of credit card a customer will receive depends on his/her annual income.
-    
-    In this scenario, it is good to apply the factory method design pattern.
-    
+In this scenario, it is good to apply the factory method design pattern.
 
 ### Code Description
  - **How the code works?**
