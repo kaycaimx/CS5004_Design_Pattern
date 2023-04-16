@@ -1,7 +1,7 @@
 # CS5004_Design_Pattern
 Design pattern presentation for CS5004 Spring 2023 - Factory 1
 
-**###Code Description**
+###Code Description
  - **How the code works?**
 ![Code_description](https://github.com/kaycaimx/CS5004_Design_Pattern/blob/main/images/Code%20_description_diagram.png)
 
