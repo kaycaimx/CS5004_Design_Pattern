@@ -1,12 +1,12 @@
 package milkteafactory;
 
 /**
- * This class represents a concrete Milk Cap Oolong Tea class.
+ * This class represents a concrete Cream Cap Oolong Tea class.
  */
 public class CreamCapOolong extends MilkTea {
 
   /**
-   * Constructor for a Milk Cap Oolong Tea.
+   * Constructor for a Cream Cap Oolong Tea.
    */
   public CreamCapOolong() {
     this.name = "Fluffy Cream Cap Oolong Tea";

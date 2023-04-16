@@ -1,7 +1,7 @@
 package milkteafactory;
 
 /**
- * This class represents a concrete MilkTeaShop class that only makes cheese cap milk tea.
+ * This class represents a concrete MilkTeaShop class that only makes cream cap milk tea.
  */
 public class CreamCapTeaShop extends MilkTeaShop {
 

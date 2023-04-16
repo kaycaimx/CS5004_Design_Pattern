@@ -21,7 +21,10 @@ public class Main {
     MilkTea kayOrder = creamCapShop.orderTea("taro", Size.L);
 
     System.out.println("Iris ordered: " + irisOrder.toString());
+    //print-out: Iris ordered: A Medium cup of Boba Bubble Oolong Tea ($7.75)
     System.out.println("Simona ordered: " + simonaOrder.toString());
+    //print-out: Simona ordered: A Small cup of Fresh Fruit Earl Grey Tea ($6.50)
     System.out.println("Kay ordered: " + kayOrder.toString());
+    //print-out: Kay ordered: A Large cup of Fluffy Cream Cap Taro Tea ($9.00)
   }
 }

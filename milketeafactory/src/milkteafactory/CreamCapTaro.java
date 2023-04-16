@@ -1,12 +1,12 @@
 package milkteafactory;
 
 /**
- * This class represents a concrete Milk Cap Taro Tea class.
+ * This class represents a concrete Cream Cap Taro Tea class.
  */
 public class CreamCapTaro extends MilkTea {
 
   /**
-   * Constructor for a Milk Cap Taro Tea.
+   * Constructor for a Cream Cap Taro Tea.
    */
   public CreamCapTaro() {
     this.name = "Fluffy Cream Cap Taro Tea";
