@@ -22,7 +22,7 @@ In this scenario, it is good to apply the factory method design pattern.
 ![Facotry_pattern_example](https://github.com/kaycaimx/CS5004_Design_Pattern/blob/main/images/Factory_pattern.png)
 
 
-### Code Description
+## Code Description
   - **How the code works?**
 ![Code_description](https://github.com/kaycaimx/CS5004_Design_Pattern/blob/main/images/Code%20_description_diagram.png)
     Factory Method Pattern encapsulates object creation by letting subclasses decide what objects to create[^2]. In our code, MilkTeaShop is the abstract creator and it produces one product MilkTea, which is an abstract type, therefore, the abstract creator only depends on an abstract product rather than concrete classes.
