@@ -7,18 +7,20 @@ CS 5004 Object-Oriented Design, Spring 2023
 
 Instructor: Dr. Lino Coria
 
-### How Factory Pattern Works?
+
+## How Factory Pattern Works?
 The factory method is a creational design pattern that provides an interface or abstract class for creating an object. And it allows its sub-classes to decide which class to instantiate.
 
 In this pattern, a creator class provides an abstract method that returns an object of a specific type. The concrete subclasses of the creator class implement this method to create objects of different types. The client code interacts with the creator class, rather than directly interacts with the concrete subclasses. This pattern allows for greater flexibility in object creation and promotes loose coupling.
 
-### When To Use Factory Pattern?
+## When To Use Factory Pattern?
 When our program needs to instantiate lots of concrete classes at run time and we foresee the possibility that our code may be extended with new concrete classes in the future, meanwhile the client code is independent of how concrete objects are created, the factory pattern will be a good match for this kind of scenario.
 
 Assume we are opening a bank which offers our customers different types of credit cards. We provide three types of credit cards such as Silver, Gold, and Platinum cards. Each of them has a different credit limit. For example, the credit limit of a Silver card is 10,000 CAD, the credit limit of a Gold card is 25,000 CAD, and the credit limit of a Platinum card is 50,000 CAD. The type of credit card a customer will receive depends on his/her annual income[^1].
 
 In this scenario, it is good to apply the factory method design pattern.
 ![Facotry_pattern_example](https://github.com/kaycaimx/CS5004_Design_Pattern/blob/main/images/Factory_pattern.png)
+
 
 ### Code Description
   - **How the code works?**
@@ -36,10 +38,11 @@ In this scenario, it is good to apply the factory method design pattern.
     4. The orderTea() method does not and needs not to know which concrete product is created and returned, as long as it is a MilkTea, the orderTea() method will upgrade the size to M and calculate the corresponding price for Iris.
     5. Finally, Iris gets the tea she wants and if represented by a String it would be: A Medium cup of Boba Oolong Tea ($7.75).
 
-### UML
+
+## UML
 ![UML](https://github.com/kaycaimx/CS5004_Design_Pattern/blob/main/images/UML.jpg)
 
 #### References
 [^1]: Arshad Suraj, “Overview Of Factory Method Design Pattern”, Medium, May 23, 2021, https://medium.com/geekculture/overview-of-factory-method-design-pattern-d3a6fe908ea4
-[^2]: Freeman, E., & Robson, E. (2021). Head first design patterns : building extensible and maintainable object-oriented software (2nd edition). O’Reilly.
+[^2]: Freeman, E., & Robson, E. (2021). Head first design patterns : building extensible and maintainable object-oriented software (2nd edition). O’Reilly (https://learning.oreilly.com/library/view/head-first-design/9781492077992/).
 
