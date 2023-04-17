@@ -20,6 +20,7 @@ Assume we are opening a bank which offers our customers different types of credi
 
 In this scenario, it is good to apply the factory method design pattern.
 ![Facotry_pattern_example](https://github.com/kaycaimx/CS5004_Design_Pattern/blob/main/images/Factory_pattern.png)
+_(Source: https://medium.com/geekculture/overview-of-factory-method-design-pattern-d3a6fe908ea4)_
 
 
 
